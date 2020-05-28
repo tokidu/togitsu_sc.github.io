@@ -1,0 +1,378 @@
+body{
+    font-family: 'メイリオ', 'Meiryo','ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック','MS P Gothic', sans-serif;
+    margin: 0px;
+}
+
+.container{
+    width: 1170px;
+    background: #fff;
+    padding: 0 20px;
+    margin: 0 auto;
+    
+    
+    
+
+}
+
+
+
+
+.ribbon-wrapper {
+    display: inline-block;
+    position: relative;
+    height: 45px;
+    
+    text-align: center;
+    box-sizing: border-box;
+    
+  }
+  
+  
+  
+  .ribbon-wrapper h1 {
+    display: block;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    padding: 20px 220px;
+    line-height: 45px;
+    font-size: 30px;
+    color: #feaf0a;
+    text-shadow: 0 0 2px #FFF;
+    background: -webkit-repeating-linear-gradient(-45deg, #f8e1b1, #f8e1b1 3px,#f8ebd0 3px, #f8ebd0 7px);
+    background: repeating-linear-gradient(-45deg, #f8e1b1, #f8e1b1 3px,#f8ebd0 3px, #f8ebd0 7px);
+  }
+  
+  .ribbon-wrapper h1:before {
+    position: absolute;
+    content: '';
+    
+    left: 0;
+    bottom: -20px;
+    
+    border: none;
+    border-bottom: solid 20px transparent;
+    border-right: solid 30px #dfc58d;
+  }
+  
+  .ribbon-wrapper h1:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    right: 0;
+    border: none;
+    border-bottom: solid 20px transparent;
+    border-left: solid 30px #dfc58d;
+  }
+
+
+.header-logo{
+    font-size: 60px;
+    cursor: pointer;
+    
+    z-index: 20;
+
+    position: fixed;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 1250px;
+}
+
+.team-datail{
+    padding-bottom: 10px;
+    
+    
+}
+
+.front{
+    
+    
+    display: block;
+    
+}
+
+
+.team-datail{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+
+    z-index: 100;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.win{
+    position: relative;
+    top: 150px;
+}
+
+    
+    
+    
+    
+    
+
+    
+
+
+
+    
+
+
+.team-logo img{
+    width: 250px;
+    height: auto;
+    float: left;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    
+    
+}
+
+
+
+.name__Jp img{
+    
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+    position: relative;
+    top: 20px;
+   
+    
+}
+
+
+
+.change-btn-wrapper{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    display: inline-block;
+    
+}
+.change-btn{
+    
+    color: #fff;
+    
+    font-size: 50px;
+    position: relative;
+    top: 500px;
+}
+.change-btn:hover{
+    opacity: 0.5;
+}
+
+
+.prev-btn{
+    float: left;
+    cursor: pointer;
+    display: none;
+}
+
+.next-btn{
+    float: right;
+    cursor: pointer;
+}
+
+.slide{
+    display: none;
+}
+
+.slide img{
+    width: 100%;
+}
+
+
+.active{
+    display: block;
+}
+
+.index-btn-wrapper{
+    text-align: center;
+}
+
+.index-btn{
+    display: inline-block;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+
+.nav-category{
+    display: table;
+    width: 78.8%;
+    background-color: #fff;
+    border: 1px solid #00a0e9;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    height: 50px;
+    table-layout: fixed;
+    line-height: 50px;
+    float: right;
+    position: relative;
+    bottom: 65px;
+    cursor: pointer;
+    
+}
+
+.category-ranking__tab{
+    display: table-cell;
+    border: 1px solid #00a0e9;
+}
+.category-ranking__tab-text{
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #00a0e9;
+    transition: all 0.5s;
+    
+}
+.category-ranking__tab a{
+    text-decoration: none;
+}
+
+.category-ranking__tab-text:hover{
+    color: #fff;
+    background-color: #00a0e9;
+}
+
+h2{
+    text-align: center;
+    color: #00a0e9;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+h3{
+    background-color: #00a0e9;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px 0;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+span{
+    font-size: 20px;
+
+}
+
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+    
+  }
+  
+  table tr{
+    border-bottom: solid 1px #eee;
+    cursor: pointer;
+  }
+
+ 
+
+
+  .signup-modal-wrapper{
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.6);
+      z-index: 100;
+      display: none;
+
+  }
+  .fa-times{
+      position: absolute;
+      top: 1px;
+      right: 355px;
+      color: black;
+      cursor: pointer;
+      z-index: 110;
+
+
+  }
+
+  header img{
+      position:absolute;
+      right: 350px;
+
+  }
+
+
+
+  .video-watch{
+      text-align: center;
+  }
+  h4{
+    font-size: 20px;  
+    padding-top: 20px;  
+    text-align: left;
+    border-bottom: 1px solid #00a0e9; 
+    color: #00a0e9;
+
+  }
+
+  
+
+  .insta{
+    
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    margin-left: 80px;
+    
+  }
+
+  footer{
+      
+      padding: 20px 0;
+      background-color:  #00a0e9;
+      width: 100%;
+      margin-top: 50px;
+      
+
+  }
+
+    .footer-name img{
+        width: 300px;
+
+    }  
+  .fab{
+      color: #fff;
+      font-size: 50px;
+      margin-right: 30px;
+      float: right;
+      position: relative;
+      bottom: 58px;
+
+  }
+  .fa-facebook-f{
+      padding-left: 30px;
+  }
+
+  
+
+  .fab:hover{
+      opacity: 0.8;
+  }
+
+  
+
+
+
+  
+
+  
+ 
