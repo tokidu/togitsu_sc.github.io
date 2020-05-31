@@ -177,6 +177,15 @@ $(function(){
         $('#signup-modal19').fadeOut();
     });
 
+
+    $('.signup-show20 ').click(function(){
+        $('#signup-modal20 ').fadeIn();
+
+    });
+    $('.close-modal').click(function(){
+        $('#signup-modal20').fadeOut();
+    });
+
     $('.signup-show29 ').click(function(){
         $('#signup-modal29 ').fadeIn();
 
@@ -216,6 +225,13 @@ $(function(){
         $('#signup-modalc').fadeOut();
     });
 
+    $('.signup-showp ').click(function(){
+        $('#signup-modalp ').fadeIn();
+
+    });
+    $('.close-modal').click(function(){
+        $('#signup-modalp').fadeOut();
+    });
 
 
 
