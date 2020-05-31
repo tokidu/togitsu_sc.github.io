@@ -185,6 +185,15 @@ $(function(){
     $('.close-modal').click(function(){
         $('#signup-modal20').fadeOut();
     });
+    
+     $('.signup-show25 ').click(function(){
+        $('#signup-modal25 ').fadeIn();
+
+    });
+    $('.close-modal').click(function(){
+        $('#signup-modal25').fadeOut();
+    });
+
 
     $('.signup-show29 ').click(function(){
         $('#signup-modal29 ').fadeIn();
