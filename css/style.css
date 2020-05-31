@@ -290,13 +290,21 @@ table{
       background-color: rgba(0,0,0,0.6);
       z-index: 100;
       display: none;
+      
 
   }
+
+  
   .fa-times{
-      position: absolute;
-      top: 1px;
-      right: 355px;
-      color: black;
+      
+      width: 826px;
+      min-width: 826px;
+      margin: 0px 0px 0px 215px;
+      text-align: right;
+      font-size: 30px;
+      display: block;
+      
+      color:#fff;
       cursor: pointer;
       z-index: 110;
 
@@ -304,8 +312,12 @@ table{
   }
 
   header img{
-      position:absolute;
-      right: 350px;
+      
+      
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      
 
   }
 
@@ -341,6 +353,7 @@ table{
       background-color:  #00a0e9;
       width: 100%;
       margin-top: 50px;
+      min-width: 1250px;
       
 
   }
